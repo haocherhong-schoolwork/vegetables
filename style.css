@@ -129,6 +129,8 @@ nav li {
 }
 .contact hr {
     margin: 0 15px;
+    border: none;
+    border-bottom: #898989 1px solid;
 }
 footer {
     background: #889C5B;
