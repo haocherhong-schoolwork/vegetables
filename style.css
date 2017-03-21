@@ -99,22 +99,7 @@ nav li {
     height: 448px;
     margin: 20px auto 30px auto;
 }
-.vegetables {
-    width: 445px;
-    height: 45px;
-    background: #889C5B;
-    border: 1px solid #778A50;
-    border-radius: 3px;
-    float: left;
-}
 
-.vegetables h3 {
-    font-family: "Arial Black";
-    font-size: 16px;
-    color: #EDF2C5;
-    margin-top: 11px;
-    margin-left: 30px;
-}
 .information {
     margin-left: -52px;
     overflow: auto;
@@ -129,10 +114,14 @@ nav li {
 }
 
 .information > div > header {
-
+    font-family: "Arial Black";
+    font-size: 16px;
+    color: #EDF2C5;
+    padding-left: 30px;
+    line-height: 44px;
+    background: #889C5B;
+    border-radius: 3px;
 }
-
-
 
 .vegetables-imgs {
     margin-left: -12px;
@@ -146,22 +135,6 @@ nav li {
 .right {
     margin-right: 0px;
 }
-.contact {
-    height: 45px;
-    background-color: #778A50;
-    border: 1px solid #778A50;
-    border-radius: 3px;
-}
-.contact h3 {
-    font-size: 16px;
-    font-family: "Arial Black";
-    color: #EDF2C5;
-    margin-left: 30px;
-    margin-top: 11px;
-}
-.contact_tag {
-    height: 200px;
-}
 .text {
     color: #898989;
     line-height: 1.13;
@@ -173,20 +146,11 @@ nav li {
     background-color: #F7FBDA;
     float: right;
 }
-.up {
-    margin-left: 15px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+.contact p {
+    padding: 15px;
 }
-.vertical_line {
-    width: 414px;
-    border: 1px solid #7D7D7D;
-    margin-left: 15px;
-}
-.down {
-    color: #7D7D7D;
-    margin-top: 16px;
-    margin-left: 15px;
+.contact hr {
+    margin: 0 15px;
 }
 footer {
     background-color: #778A50;
